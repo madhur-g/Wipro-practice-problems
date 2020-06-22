@@ -18,6 +18,7 @@ public class string_code {
 				sum+=temp.charAt(temp.length()/2)-'a'+1;
 			}
 			sb.append(sum);
+			sum=0;
 		}
  System.out.println(sb);
 	}
